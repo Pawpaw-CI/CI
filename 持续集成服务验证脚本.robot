@@ -6,7 +6,7 @@ Library           Selenium2Library
 持续服务集成验证-登录
     [Documentation]    *testlink系统登录*
     ...    _持续集成用例集合_
-    ...    登录
+    ...    登录验证测试
     [Tags]    CI
     open browser    http://localhost/testlink/login.php?note=logout&viewer=    ff
     input text    id=tl_login    admin
